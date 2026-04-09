@@ -1,0 +1,9 @@
+{
+  "slug": "sin-medusa",
+  "name": "A2A-SIN-Medusa",
+  "team": "Team-SIN-FlowFactory",
+  "purpose": "Autonomous MCP Synthesis & Tool Generation",
+  "version": "1.0.0",
+  "capabilities": ["mcp_generation", "sandbox_testing", "fleet_deployment"],
+  "models": ["google/antigravity-gemini-3.1-pro", "openai/gpt-5.4"]
+}
