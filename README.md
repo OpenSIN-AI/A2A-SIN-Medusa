@@ -5,6 +5,8 @@
 
 > **Role:** The Self-Extender Agent (Software 3.0). When the OpenSIN-Neural-Bus detects a Capability Gap (missing tool), Medusa synthesizes, tests, and injects a brand-new MCP server autonomously.
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 ## ⚙️ Architecture
 
 **A2A-SIN-Medusa** replaces the concept of manual tool integrations. 
@@ -22,12 +24,24 @@
 - **Testing:** E2B / Firecracker MicroVMs
 - **Deployment:** Docker, OCI API, Hugging Face Spaces API
 
-## 🚀 Quickstart
+## 🚀 Quick Start
 ```bash
-npm install
-npm run build
-npm start
+bun install
+bun run build
+bun start
 ```
+
+## License
+
+Apache-2.0 — See [LICENSE](LICENSE).
+
+## 📚 Documentation
+
+This repository follows the [Global Dev Docs Standard](https://github.com/OpenSIN-AI/Global-Dev-Docs-Standard).
+
+For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For security policy, see [SECURITY.md](SECURITY.md).
+For the complete OpenSIN ecosystem, see [OpenSIN-AI Organization](https://github.com/OpenSIN-AI).
 
 ---
 *Created by the OpenSIN-AI Collective. Part of the Software 3.0 Sovereign Automaton.*
